@@ -1,0 +1,86 @@
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\ApplicationInsights.config
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\csc.exe
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\vbc.exe
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\VBCSCompiler.exe
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Projeto Visual Basic.dll.config
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Projeto Visual Basic.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Projeto Visual Basic.pdb
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Projeto Visual Basic.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Antlr3.Runtime.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\EntityFramework.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\EntityFramework.SqlServer.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.Web.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.ApplicationInsights.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Newtonsoft.Json.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Owin.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Helpers.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Mvc.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Optimization.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Razor.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.Razor.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\WebGrease.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.Web.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.ApplicationInsights.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Helpers.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Mvc.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Optimization.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.Razor.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\System.Web.WebPages.Razor.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Antlr3.Runtime.pdb
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Newtonsoft.Json.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\EntityFramework.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\EntityFramework.SqlServer.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.vbprojResolveAssemblyReference.cache
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto_Visual_Basic.Resources.resources
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.vbproj.GenerateResource.Cache
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.dll
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.xml
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.pdb
