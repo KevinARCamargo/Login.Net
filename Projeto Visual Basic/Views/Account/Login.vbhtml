@@ -12,12 +12,24 @@ End Code
     .custom-form {
         margin-top: 15%;
     }
+    .btn-custom{
+        margin-left: 21%;
+        width: 20%;
+    }
+
+    .p-custom{
+        margin-left: 30%;
+    }
 </style>
 
+<!-- Inicio do Formulário -->
 <div class="row">
+    <!-- Logo -->
     <div class="col-md-6 custom-logo">
         <img src="../images/logo.png" alt="Logo da Empresa" class="img-responsive" />
     </div>
+
+    <!-- Form -->
     <div class="col-md-6 custom-form">
         <section id="loginForm">
             @Using Html.BeginForm("Login", "Account", New With {.ReturnUrl = ViewBag.ReturnUrl}, FormMethod.Post, New With {.class = "form-horizontal", .role = "form"})
@@ -48,11 +60,11 @@ End Code
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <input type="submit" value="Log in" class="btn btn-default" />
+                            <input type="submit" value="Login" class="btn btn-success btn-custom" />
                         </div>
                     </div>
-                    <p>
-                        @Html.ActionLink("Register as a new user", "Register")
+                    <p class= "p-custom" >
+                        @Html.ActionLink("Register as a new user", "Register", Nothing, New With {.style = "color: #5CB85C;"})
                     </p>
                     @* Enable this once you have account confirmation enabled for password reset functionality
                         <p>

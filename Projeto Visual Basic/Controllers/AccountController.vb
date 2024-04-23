@@ -37,7 +37,6 @@ Public Class AccountController
             _userManager = value
         End Set
     End Property
-
     '
     ' GET: /Account/Login
     <AllowAnonymous>
@@ -115,41 +114,36 @@ Public Class AccountController
                 Return View(model)
         End Select
     End Function
+    'Retorna a página de Registro
 
-    '
     ' GET: /Account/Register
     <AllowAnonymous>
     Public Function Register() As ActionResult
         Return View()
     End Function
+    'Responsável Pelo Registro de Usuários
 
-    '
     ' POST: /Account/Register
     <HttpPost>
     <AllowAnonymous>
     <ValidateAntiForgeryToken>
     Public Async Function Register(model As RegisterViewModel) As Task(Of ActionResult)
         If ModelState.IsValid Then
+            'Se os dados passarem na validações de RegisterViewModel então um novo usuário é criado
             Dim user = New ApplicationUser() With {
                 .UserName = model.Email,
                 .Email = model.Email
             }
             Dim result = Await UserManager.CreateAsync(user, model.Password)
             If result.Succeeded Then
-                Await SignInManager.SignInAsync(user, isPersistent := False, rememberBrowser := False)
-
-                ' For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
-                ' Send an email with this link
-                ' Dim code = Await UserManager.GenerateEmailConfirmationTokenAsync(user.Id)
-                ' Dim callbackUrl = Url.Action("ConfirmEmail", "Account", New With { .userId = user.Id, .code = code }, protocol := Request.Url.Scheme)
-                ' Await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=""" & callbackUrl & """>here</a>")
-
+                Await SignInManager.SignInAsync(user, isPersistent:=False, rememberBrowser:=False)
+                'Se tudo ocorrer bem o usuário será redirecionado para a seguinte página
                 Return RedirectToAction("Index", "Home")
             End If
             AddErrors(result)
         End If
 
-        ' If we got this far, something failed, redisplay form
+        'Se houver algum erro voltará para a página de registro
         Return View(model)
     End Function
 
