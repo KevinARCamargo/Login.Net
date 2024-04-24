@@ -4,7 +4,6 @@
 End Code
 
 <style>
-    /* Adicione seus estilos CSS personalizados aqui */
     .custom-logo {
         
     }
@@ -66,10 +65,6 @@ End Code
                     <p class= "p-custom" >
                         @Html.ActionLink("Register as a new user", "Register", Nothing, New With {.style = "color: #5CB85C;"})
                     </p>
-                    @* Enable this once you have account confirmation enabled for password reset functionality
-                        <p>
-                            @Html.ActionLink("Forgot your password?", "ForgotPassword")
-                        </p>*@
                 </text>
             End Using
         </section>

@@ -1,12 +1,12 @@
 ﻿@ModelType RegisterViewModel
 @Code
     ViewBag.Title = "Register"
-End Code
+End Code 
 
 <style>
 
     .custom-form {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .btn-custom{
         margin-left: 21%;
@@ -33,12 +33,39 @@ End Code
                 @Html.ValidationSummary("", New With {.class = "text-danger"})
                 
                 <!-- Campos -->
+                <!-- Nome -->
+                <div class="form-group">
+                    @Html.LabelFor(Function(m) m.Name, New With {.class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                         @Html.TextBoxFor(Function(m) m.Name, New With {.class = "form-control"})
+                    </div>
+                </div>
+                
+                <!-- CPF -->
+                <div class="form-group">
+                    @Html.LabelFor(Function(m) m.CPF, New With {.class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(Function(m) m.CPF, New With {.class = "form-control"})
+                    </div>
+                </div>
+
+                <!-- Email -->
                 <div class="form-group">
                     @Html.LabelFor(Function(m) m.Email, New With {.class = "col-md-2 control-label"})
                     <div class="col-md-10">
                         @Html.TextBoxFor(Function(m) m.Email, New With {.class = "form-control"})
                     </div>
                 </div>
+                
+                <!-- Telefone -->
+                <div class="form-group">
+                     @Html.LabelFor(Function(m) m.PhoneNumber, New With {.class = "control-label col-md-2"})
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(Function(m) m.PhoneNumber, New With {.class = "form-control"})
+                    </div>
+                </div>
+
+                <!-- Senhas -->
                 <div class="form-group">
                     @Html.LabelFor(Function(m) m.Password, New With {.class = "col-md-2 control-label"})
                     <div class="col-md-10">

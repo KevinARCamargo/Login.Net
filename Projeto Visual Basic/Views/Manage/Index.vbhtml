@@ -3,11 +3,11 @@
     ViewBag.Title = "Manage"
 End Code
 
-<h2>@ViewBag.Title.</h2>
+<h2>Welcome</h2>
 
 <p class="text-success">@ViewBag.StatusMessage</p>
 <div>
-    <h4>Change your account settings</h4>
+    <h4>Account information</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>Password:</dt>

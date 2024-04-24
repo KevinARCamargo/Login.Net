@@ -84,3 +84,5 @@ C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Proj
 C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.dll
 C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.xml
 C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto Visual Basic.pdb
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto_Visual_Basic.Migrations.InitialCreate.resources
+C:\Users\kevin\OneDrive\Documentos\Projetos\Teste Técnico Manga Tecnologia\Projeto Visual Basic\Projeto Visual Basic\obj\Debug\Projeto_Visual_Basic.Migrations.AddCampos.resources

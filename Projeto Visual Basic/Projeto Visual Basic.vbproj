@@ -230,6 +230,15 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404231249077_InitialCreate.Designer.vb">
+      <DependentUpon>202404231249077_InitialCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404231249077_InitialCreate.vb" />
+    <Compile Include="Migrations\202404241649353_AddCampos.Designer.vb">
+      <DependentUpon>202404241649353_AddCampos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404241649353_AddCampos.vb" />
+    <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Models\AccountViewModels.vb" />
     <Compile Include="Models\IdentityModels.vb" />
     <Compile Include="Models\ManageViewModels.vb" />
@@ -252,6 +261,12 @@
     <Compile Include="Startup.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\202404231249077_InitialCreate.resx">
+      <DependentUpon>202404231249077_InitialCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404241649353_AddCampos.resx">
+      <DependentUpon>202404241649353_AddCampos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

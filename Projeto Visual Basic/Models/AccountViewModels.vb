@@ -55,6 +55,15 @@ Public Class LoginViewModel
 End Class
 
 Public Class RegisterViewModel
+
+    <Required(ErrorMessage:="The Name field is required.")>
+    <Display(Name:="Name")>
+    Public Property Name As String
+
+    <Required(ErrorMessage:="The CPF field is required.")>
+    <Display(Name:="CPF")>
+    Public Property CPF As String
+
     <Required>
     <EmailAddress>
     <Display(Name:="Email")>
@@ -70,6 +79,13 @@ Public Class RegisterViewModel
     <Display(Name:="Confirm password")>
     <Compare("Password", ErrorMessage:="The password and confirmation password do not match.")>
     Public Property ConfirmPassword As String
+
+
+    <Required(ErrorMessage:="The Phone Number field is required.")>
+    <Phone(ErrorMessage:="Invalid phone number.")>
+    <Display(Name:="Phone Number")>
+    Public Property PhoneNumber As String
+
 End Class
 
 Public Class ResetPasswordViewModel

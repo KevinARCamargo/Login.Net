@@ -45,7 +45,6 @@ Public Class AccountController
         Return View()
     End Function
 
-    '
     ' POST: /Account/Login
     <HttpPost>
     <AllowAnonymous>
@@ -57,22 +56,23 @@ Public Class AccountController
 
         ' This doesn't count login failures towards account lockout
         ' To enable password failures to trigger account lockout, change to shouldLockout := True
-        Dim result = Await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout := False)
+        Dim result = Await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout:=False)
         Select Case result
             Case SignInStatus.Success
-                Return RedirectToLocal(returnUrl)
+                Return RedirectToAction("Index", "Manage")
             Case SignInStatus.LockedOut
                 Return View("Lockout")
             Case SignInStatus.RequiresVerification
                 Return RedirectToAction("SendCode", New With {
-                    .ReturnUrl = returnUrl,
-                    .RememberMe = model.RememberMe
-                })
+                .ReturnUrl = returnUrl,
+                .RememberMe = model.RememberMe
+            })
             Case Else
                 ModelState.AddModelError("", "Invalid login attempt.")
                 Return View(model)
         End Select
     End Function
+
 
     '
     ' GET: /Account/VerifyCode
@@ -131,8 +131,10 @@ Public Class AccountController
         If ModelState.IsValid Then
             'Se os dados passarem na validações de RegisterViewModel então um novo usuário é criado
             Dim user = New ApplicationUser() With {
-                .UserName = model.Email,
-                .Email = model.Email
+                .UserName = model.Name,
+                .CPF = model.CPF,
+                .Email = model.Email,
+                .PhoneNumber = model.PhoneNumber
             }
             Dim result = Await UserManager.CreateAsync(user, model.Password)
             If result.Succeeded Then
