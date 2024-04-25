@@ -54,11 +54,11 @@ Public Class AccountController
             Return View(model)
         End If
 
-        ' This doesn't count login failures towards account lockout
-        ' To enable password failures to trigger account lockout, change to shouldLockout := True
+        'Verificação de Login
         Dim result = Await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout:=False)
         Select Case result
             Case SignInStatus.Success
+                'Redirecionameto para a página de Mudança de Senha
                 Return RedirectToAction("Index", "Manage")
             Case SignInStatus.LockedOut
                 Return View("Lockout")
@@ -68,12 +68,11 @@ Public Class AccountController
                 .RememberMe = model.RememberMe
             })
             Case Else
+                'Credenciais incorretas
                 ModelState.AddModelError("", "Invalid login attempt.")
                 Return View(model)
         End Select
     End Function
-
-
     '
     ' GET: /Account/VerifyCode
     <AllowAnonymous>
@@ -140,7 +139,7 @@ Public Class AccountController
             If result.Succeeded Then
                 Await SignInManager.SignInAsync(user, isPersistent:=False, rememberBrowser:=False)
                 'Se tudo ocorrer bem o usuário será redirecionado para a seguinte página
-                Return RedirectToAction("Index", "Home")
+                Return RedirectToAction("Index", "Manage")
             End If
             AddErrors(result)
         End If

@@ -4,13 +4,11 @@
 End Code
 
 <style>
-    .custom-logo {
-        
-    }
-
+    
     .custom-form {
         margin-top: 15%;
     }
+
     .btn-custom{
         margin-left: 21%;
         width: 20%;
