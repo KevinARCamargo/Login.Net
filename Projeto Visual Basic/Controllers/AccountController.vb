@@ -53,7 +53,6 @@ Public Class AccountController
         If Not ModelState.IsValid Then
             Return View(model)
         End If
-
         'Verificação de Login
         Dim result = Await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout:=False)
         Select Case result
@@ -130,7 +129,7 @@ Public Class AccountController
         If ModelState.IsValid Then
             'Se os dados passarem na validações de RegisterViewModel então um novo usuário é criado
             Dim user = New ApplicationUser() With {
-                .UserName = model.Name,
+                .UserName = model.Email,
                 .CPF = model.CPF,
                 .Email = model.Email,
                 .PhoneNumber = model.PhoneNumber
@@ -178,15 +177,8 @@ Public Class AccountController
                 ' Don't reveal that the user does not exist or is not confirmed
                 Return View("ForgotPasswordConfirmation")
             End If
-            ' For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
-            ' Send an email with this link
-            ' Dim code = Await UserManager.GeneratePasswordResetTokenAsync(user.Id)
-            ' Dim callbackUrl = Url.Action("ResetPassword", "Account", New With { .userId = user.Id, .code = code }, protocol := Request.Url.Scheme)
-            ' Await UserManager.SendEmailAsync(user.Id, "Reset Password", "Please reset your password by clicking <a href=""" & callbackUrl & """>here</a>")
-            ' Return RedirectToAction("ForgotPasswordConfirmation", "Account")
-        End If
 
-        ' If we got this far, something failed, redisplay form
+        End If
         Return View(model)
     End Function
 
@@ -358,7 +350,7 @@ Public Class AccountController
     <ValidateAntiForgeryToken>
     Public Function LogOff() As ActionResult
         AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie)
-        Return RedirectToAction("Index", "Home")
+        Return RedirectToAction("Login", "Account")
     End Function
 
     '

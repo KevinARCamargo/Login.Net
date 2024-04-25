@@ -63,6 +63,7 @@ End Code
                     <p class= "p-custom" >
                         @Html.ActionLink("Register as a new user", "Register", Nothing, New With {.style = "color: #5CB85C;"})
                     </p>
+                
                 </text>
             End Using
         </section>

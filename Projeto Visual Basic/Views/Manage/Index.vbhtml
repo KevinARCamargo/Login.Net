@@ -4,23 +4,14 @@
 End Code
 
 
-<h2>Welcome</h2>
+<h2>We are working on it :(</h2>
 
 <p class="text-success">@ViewBag.StatusMessage</p>
 <div>
-    
-    <dl >
-        <dt>Password: @Model.</dt>
-        <dd>
-            [
-            @If Model.HasPassword Then
-                @Html.ActionLink("Change your password", "ChangePassword")
-            Else
-                @Html.ActionLink("Create", "SetPassword")
-            End If
-            ]
-        </dd>
-       
-        
-    </dl>
+    <p>I'm sorry, this page is still in production there hasn't been much here but you can change your password:</p>
+    @If Model.HasPassword Then
+        @Html.ActionLink("Change your password", "ChangePassword")
+    Else
+        @Html.ActionLink("Create", "SetPassword")
+    End If
 </div>
